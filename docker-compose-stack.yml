@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+    ubuntu:
+        container_name: ubuntu-20.04-base
+        build:
+            context: .
+            args:
+                - USER=$USER
+                - PASS=$$USER       
+        ports:
+            - 22
+            - 80
+        deploy:
+            mode: global
