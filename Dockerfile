@@ -1,7 +1,7 @@
 FROM ubuntu:20.04
 
-ARG USER="alejo"
-ARG PASS="pepe"
+ARG USER="developer"
+ARG PASS="developer"
 ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt update
