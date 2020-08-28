@@ -1,5 +1,4 @@
-version: '2'
+version: "2"
 services:
-    php:
-        container_name: test
-        image: containous/whoami
+  web:
+    image: containous/whoami     
